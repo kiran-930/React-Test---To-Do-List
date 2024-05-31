@@ -4,7 +4,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Base URL for JSON Server
-const apiUrl = 'https://react-to-do-app-jwbj.onrender.com/todos';
+const apiUrl = 'https://react-test-k56k.onrender.com/todos';
 
 // Async thunks for API calls
 export const fetchTodos = createAsyncThunk('todos/fetchTodos', async () => {
