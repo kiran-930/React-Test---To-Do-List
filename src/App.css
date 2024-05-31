@@ -1,0 +1,37 @@
+/* src/App.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 50px;
+  background: url('/src/assets/onee.jpg') no-repeat center ;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}
